@@ -10,6 +10,7 @@ services:
       - ${PAYMENTS_POSTGRES_PORT}:5432
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./deploy/postgres:/docker-entrypoint-initdb.d:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${PAYMENTS_POSTGRES_USER}"]
       interval: 5s

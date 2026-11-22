@@ -1,0 +1,4 @@
+CREATE DATABASE auth;
+CREATE DATABASE wallet;
+CREATE DATABASE transfer;
+
