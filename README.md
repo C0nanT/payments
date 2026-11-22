@@ -42,4 +42,4 @@ This project is written **without AI code generation**. The goal is to practice 
 
 ## License
 
-To be defined.
+This project is licensed under the [MIT License](LICENSE).
