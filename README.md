@@ -1,4 +1,4 @@
-# Payments
+# Payments (work in progress)
 
 **A production-grade payments backend in Go: six microservices on Kubernetes, built around a double-entry ledger, sagas, events, observability and chaos tests.**
 
